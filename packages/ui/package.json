@@ -1,0 +1,9 @@
+{
+  "name": "@repo/ui",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "echo": "echo '...'",
+    "repro": "npx turbo --env-mode=loose echo --filter='./packages/*'"
+  }
+}

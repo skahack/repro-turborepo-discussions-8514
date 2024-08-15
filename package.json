@@ -1,0 +1,19 @@
+{
+  "name": "@repo/root",
+  "private": true,
+  "scripts": {
+    "repro": "turbo echo --filter='./packages/*' --filter='./packages/ui/packages/*'"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "turbo": "^2.0.13",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "yarn@4.4.0",
+  "workspaces": [
+    "packages/**"
+  ]
+}
